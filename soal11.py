@@ -6,6 +6,7 @@ import os
 
 import numpy as np
 import altair as alt
+import matplotlib.pyplot as plt
 
 st.title('WELCOME')
 
