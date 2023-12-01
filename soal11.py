@@ -14,7 +14,7 @@ menu = ['Home', 'Dashboard', 'Profile']
 selected_menu = st.sidebar.selectbox('Menu', menu)
 
 if selected_menu == 'Home':
-    st.subheader('Welcome to Home Page')
+    st.subheader('Welcome to Home Page Resky Surya Kusuma')
     st.image('selamatdatang.png', use_column_width=True)
 
     # Read dataset (csv)
@@ -44,7 +44,7 @@ if selected_menu == 'Home':
     plot_bar_chart(filtered_data)
 
 elif selected_menu == 'Dashboard':
-    st.subheader('Welcome to Dashboard')
+    st.subheader('Welcome to Dashboard Resky Surya Kusuma')
     st.image('selamatdatang.png', use_column_width=True)
 
     # Read dataset (csv)
@@ -55,7 +55,7 @@ elif selected_menu == 'Dashboard':
 
 # Other pages can be added similarly
 elif selected_menu == 'Profile':
-    st.subheader('Welcome to Profile Page')
+    st.subheader('Welcome to Profile Page Resky Surya Kusuma')
 
     # Add a form for personal biodata
     st.subheader('Personal Biodata:')
